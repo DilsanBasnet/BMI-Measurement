@@ -7,7 +7,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <nav>
+        <div class="nav-left">
+            <span class="project-name">BMI MEASUREMENT</span>
+            <span class="beest-project">BEEST PROJECT</span>
+        </div>
+        <div class="profile">
+            <span>Dilsan Basnet</span>
+            <div class="profile-img">
+                <img src="images/profile-img.png" alt="profile image">
+            </div>
+        </div>
+    </nav>
+
+<main class="content-wrapper">
+    <div class="bmi-container">
+        <div class="headerarea">
+            <h1>BMI CALCULATOR</h1>
+            <p>Calculate Body Mass Index just enter Height and Weight.</p>
+        </div>
+
+        <div class="form-group">
+            <label for="">Enter Height</label>
+            <div class="enterInput">
+                <input type="number" id="height-input" placeholder="height: 172">
+                <span class="unit-tag">CM</span>
+            </div>
+        </div>
+    <div class="form-group">
+        <label for="weight-input">Enter Weight</label>
+        <div class="enterInput">
+<input type="number" id="weight-input" placeholder="weight: 63">
+<span class="unit-tag">KG</span>
+        </div>
+    </div>
+
+    <button class="button" onclick="processData()">Calculate BMI</button>
+
+    <div class="result" id="output-area">
+        <p>Your BMI is:</p>
+        <span id="bmi-output">0.0</span>
+        <div class="status-badge" id="status-badge">NORMAL</div>
+    </div>
+    </div>
+</main>
+
+<footer>
     
+</footer>
+
     
 
     <script src="script.js"></script>
