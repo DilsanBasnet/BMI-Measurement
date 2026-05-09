@@ -1,7 +1,7 @@
 :root {
     --primary-accent: rgb(74, 141, 218);;
     --text-main: rgb(50, 49, 49);
-    --shadow: 0 4px 15px rgba(0,0,0,0.1);
+    --shadow: 0 4px 15px rgba(0,0,0,0.2);
     ;
 }
 
@@ -63,11 +63,66 @@ nav {
 .profile-img {
     width: 70px;
     height: 70px;
-    border-radius: 50%
+;    border-radius: 50%
     
   ;
   
     border: 2px solid var(--primary-accent);
 
+
+
 }
+
+.content-wrapper {
+    flex: 1;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 42px 21px;
+
+}
+.bmi-container {
+    background: rgb(229, 227, 227);
+    width: 100%;
+    max-width: 455px;
+    padding: 41px;
+    border-radius: 21px;;
+    box-shadow: var(--shadow);
+}
+.header-area {
+    text-align: center;
+    margin-bottom: 31px;
+} .header-area h1 {
+    font-size: 29px;
+    margin-bottom: 11px;
+
+}
+.header-area p {
+    font-size: 16px;
+    color: rgb(113, 112, 112);;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;;
+    margin-bottom: 9px;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(61, 61, 61);;
+
+}
+.input-wrapper {
+    position: relative;;
+
+
+}
+.input-wrapper input {
+    width: 100%;
+    border: 2px solid rgb(215, 210, 210);
+    border-radius: 10px;
+    font-size: 17px;;
+    transition: all 0.25s ease;
+}
+
 
