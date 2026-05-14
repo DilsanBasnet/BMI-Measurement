@@ -9,8 +9,7 @@ It is a BMI measurement webapp, where user enter height and weight and it measur
 ## Tech Stack
 *   **Frontend:** HTML5, CSS3 
 *   **Logic:**  JavaScript
-
-# Screenshot of Game: 
+*    
 <img width="1919" height="982" alt="image" src="https://github.com/user-attachments/assets/796c2c94-ae82-4283-afcd-9096a6f07ae2" />
 
 ## Author:
