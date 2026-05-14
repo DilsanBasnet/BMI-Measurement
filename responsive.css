@@ -1,16 +1,18 @@
-
 @media screen and (min-width: 768px) {
-.content-wrapper {
-    padding: 60px 0;
+    .content-wrapper {
+        padding: 60px 0;
 
-}
-.bmi-container {
-    width: 451px;
-    transition: transform 0.3s ease;;
-}
-.bmi-container:hover {
-    transform: translateY(-6px)
-}
+    }
+
+    .bmi-container {
+        width: 451px;
+        transition: transform 0.3s ease;
+        ;
+    }
+
+    .bmi-container:hover {
+        transform: translateY(-6px)
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -24,40 +26,41 @@
     .nav-left {
         flex-direction: column;
         gap: 9px;
-        
+
     }
-    .beest-project {
-        border-left: none;
-        padding-left: 0;
-        font-size: 14px
-        ;
-    }
+
     .bmi-container {
         width: 94%;
-        padding: 25px 20px;;
-        margin: 10px auto;;
+        padding: 25px 20px;
+        ;
+        margin: 10px auto;
+        ;
     }
 
     .header-area h1 {
         font-size: 19px;
 
     }
+
     #bmi-output {
-        font-size: 25px; 
+        font-size: 25px;
     }
-    
+
 
 }
 
 
 
 @keyframes fadeIn {
-    from{
-        opacity: 0; transform: translateY(11px);
+    from {
+        opacity: 0;
+        transform: translateY(11px);
         ;
-        
+
     }
+
     to {
-        opacity: 1; transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
 }
